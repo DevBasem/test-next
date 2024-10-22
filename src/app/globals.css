@@ -1,6 +1,14 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nav-item:hover .underline {
+  width: 100%;
+  padding: 1px;
+}
 
 body {
   font-family: Arial, Helvetica, sans-serif;
